@@ -55,15 +55,13 @@ r"""
 \begin{frame}{@SLIDE_TITLE}
 @TOPTEXT
 \begin{columns}
-\begin{column}{0.33\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT1TITLE
 \\
 \includegraphics[width=\textwidth]{@PLOT1}
 \\
 \end{center}
-\end{column}
-\begin{column}{0.33\textwidth}
 \begin{center}
 @PLOT2TITLE
 \\
@@ -71,7 +69,7 @@ r"""
 \\
 \end{center}
 \end{column}
-\begin{column}{0.33\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT3TITLE
 \\
@@ -90,7 +88,7 @@ r"""
 \begin{frame}{@SLIDE_TITLE}
 @TOPTEXT
 \begin{columns}
-\begin{column}{0.3\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT1TITLE
 \\
@@ -103,7 +101,7 @@ r"""
 \end{center}
 \end{column}
 
-\begin{column}{0.3\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT2TITLE
 \\
@@ -126,7 +124,7 @@ r"""
 \begin{frame}{@SLIDE_TITLE}
 @TOPTEXT
 \begin{columns}
-\begin{column}{0.3\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT1TITLE
 \\
@@ -138,7 +136,7 @@ r"""
 \end{center}
 \end{column}
 
-\begin{column}{0.3\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT2TITLE
 \\
@@ -150,7 +148,7 @@ r"""
 \end{center}
 \end{column}
 
-\begin{column}{0.3\textwidth}
+\begin{column}{0.5\textwidth}
 \begin{center}
 @PLOT3TITLE
 \\

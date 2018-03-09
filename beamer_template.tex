@@ -1,7 +1,9 @@
 % This is the main beamer template file.
 
 % \documentclass[10pt]{beamer} % normal 4:3 aspect ratio
-\documentclass[aspectratio=169,10pt]{beamer}  % widescreen 16:9 aspect ratio
+\RequirePackage{luatex85}
+% \documentclass[aspectratio=169,10pt]{beamer}  % widescreen 16:9 aspect ratio
+\documentclass[10pt]{beamer}
 \usetheme{default}
 \usepackage{graphicx}
 \usepackage{multicol}
@@ -10,10 +12,10 @@
 \usepackage{color}
 
 % Set your font here
-\usefonttheme{professionalfonts} % using non standard fonts for beamer
-\usefonttheme{serif} % default family is serif
+% \usefonttheme{professionalfonts} % using non standard fonts for beamer
+% \usefonttheme{serif} % default family is serif
 \usepackage{fontspec}
-\setmainfont{Palatino}
+% \setmainfont{Aerial}
 
 \setbeamertemplate{navigation symbols}{} % Turn off the navigation symbols
 \setbeamerfont{frametitle}{size=\fontsize{12pt}{8pt}}
